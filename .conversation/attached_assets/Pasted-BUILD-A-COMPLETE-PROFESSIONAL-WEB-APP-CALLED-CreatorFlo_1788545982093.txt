@@ -1,0 +1,1277 @@
+BUILD A COMPLETE PROFESSIONAL WEB APP CALLED:
+
+"CreatorFlow AI"
+
+TAGLINE:
+"Your AI-powered toolkit for smarter content creation."
+
+IMPORTANT:
+Build this as a polished, production-style web application, not a simple demo.
+The UI must look modern, premium, clean, fast, responsive and trustworthy.
+The application must work properly on both mobile and desktop.
+
+==================================================
+1. CORE PURPOSE
+==================================================
+
+CreatorFlow AI is an AI-powered content creation toolkit for YouTube,
+Instagram, TikTok and other content creators.
+
+The user enters a topic, selects a platform and content type, and the
+application generates useful content assets.
+
+The main goal is to help creators quickly create:
+
+- Video ideas
+- Titles
+- Hooks
+- Descriptions
+- Content outlines
+- Thumbnail concepts
+- Hashtag suggestions
+- Content calendars
+
+Do not create fake AI results.
+Use the Gemini API through the environment/API configuration available
+to the application.
+
+==================================================
+2. DESIGN STYLE
+==================================================
+
+Create a premium SaaS-style interface.
+
+Design requirements:
+
+- Clean modern layout
+- Professional typography
+- Excellent spacing
+- Rounded cards
+- Subtle borders
+- Soft shadows
+- Modern buttons
+- Clear hierarchy
+- Attractive dashboard
+- Responsive navigation
+- Mobile-first design
+- Fast loading
+- Accessible contrast
+- Smooth but subtle animations
+
+Do NOT make the interface look childish.
+
+Avoid excessive gradients, excessive animations, unnecessary decorations,
+or clutter.
+
+The application should feel similar to a modern professional SaaS product.
+
+==================================================
+3. COLOR SYSTEM
+==================================================
+
+Use a professional neutral interface with one strong accent color.
+
+Support:
+
+- Light mode
+- Dark mode
+
+Add a theme toggle in the header.
+
+Do not hard-code colors throughout the application.
+Create a centralized theme/color system so the design can easily be changed.
+
+==================================================
+4. MAIN NAVIGATION
+==================================================
+
+Desktop navigation:
+
+Logo:
+CreatorFlow AI
+
+Menu:
+
+Dashboard
+AI Tools
+Templates
+History
+Pricing
+Settings
+
+Right side:
+
+Theme toggle
+User/profile button
+
+Mobile:
+
+Use a hamburger menu / mobile drawer.
+
+==================================================
+5. LANDING PAGE
+==================================================
+
+Create a professional homepage.
+
+Hero section:
+
+Heading:
+
+"Create Better Content, Faster."
+
+Subheading:
+
+"Generate ideas, titles, hooks, descriptions and complete content plans
+with AI — all from one simple creator toolkit."
+
+Primary CTA:
+
+"Start Creating"
+
+Secondary CTA:
+
+"Explore Tools"
+
+Add a clean visual dashboard preview below the hero.
+
+==================================================
+6. LANDING PAGE SECTIONS
+==================================================
+
+Section 1:
+Hero
+
+Section 2:
+"Everything Creators Need"
+
+Show feature cards:
+
+1. Video Ideas
+2. Viral-Style Titles
+3. Powerful Hooks
+4. SEO-Friendly Descriptions
+5. Thumbnail Concepts
+6. Content Calendars
+
+Section 3:
+
+"Built for Every Platform"
+
+Cards:
+
+YouTube
+Instagram
+TikTok
+Shorts
+Facebook
+
+Section 4:
+
+"How It Works"
+
+Step 1:
+Choose a tool
+
+Step 2:
+Enter your topic
+
+Step 3:
+Generate content
+
+Step 4:
+Copy and use
+
+Section 5:
+
+"Creator Toolkit"
+
+Show all available AI tools.
+
+Section 6:
+
+Pricing preview.
+
+Section 7:
+
+FAQ.
+
+Section 8:
+
+Footer.
+
+==================================================
+7. DASHBOARD
+==================================================
+
+Create a professional dashboard.
+
+Dashboard top:
+
+"Welcome to CreatorFlow AI"
+
+Subtitle:
+
+"What will you create today?"
+
+Add a quick generation card.
+
+Fields:
+
+Topic
+Platform
+Content Type
+Audience
+Tone
+Language
+
+Topic example placeholder:
+
+"e.g. 10 productivity tips for students"
+
+Platform dropdown:
+
+YouTube
+YouTube Shorts
+TikTok
+Instagram
+Instagram Reels
+Facebook
+
+Content type dropdown:
+
+Long Video
+Short Video
+Reel
+Post
+Carousel
+
+Audience:
+
+General
+Students
+Gamers
+Business Owners
+Creators
+Beginners
+Professionals
+Custom
+
+Tone:
+
+Professional
+Friendly
+Educational
+Exciting
+Funny
+Inspirational
+Persuasive
+
+Language:
+
+English
+Urdu
+Roman Urdu
+Hindi
+Arabic
+Spanish
+French
+
+Primary button:
+
+"Generate with AI"
+
+==================================================
+8. AI TOOLS
+==================================================
+
+Create a dedicated AI Tools page.
+
+Show attractive tool cards.
+
+TOOLS:
+
+1. Video Idea Generator
+2. Title Generator
+3. Hook Generator
+4. Description Generator
+5. Thumbnail Concept Generator
+6. Hashtag Generator
+7. Script Outline Generator
+8. Content Calendar Generator
+
+Each tool must have:
+
+- Icon
+- Tool name
+- Short description
+- "Open Tool" button
+
+==================================================
+9. VIDEO IDEA GENERATOR
+==================================================
+
+Create a dedicated tool page.
+
+Inputs:
+
+Topic
+Platform
+Niche
+Audience
+Number of ideas
+Language
+
+Number of ideas:
+
+5
+10
+20
+
+Generate button:
+
+"Generate Ideas"
+
+AI should return structured results.
+
+Each result should include:
+
+Idea title
+Short explanation
+Target audience
+Suggested format
+
+Every result card should have:
+
+Copy button
+
+Save button
+
+Regenerate button
+
+==================================================
+10. TITLE GENERATOR
+==================================================
+
+Inputs:
+
+Topic
+Platform
+Audience
+Tone
+Number of titles
+
+Generate 10 professional title options.
+
+For every title show:
+
+Title
+Title style
+Why it works
+
+Buttons:
+
+Copy
+Save
+
+Do not guarantee that any title will "go viral".
+Avoid misleading claims.
+
+==================================================
+11. HOOK GENERATOR
+==================================================
+
+Inputs:
+
+Topic
+Platform
+Video type
+Tone
+
+Generate strong opening hooks.
+
+Categories:
+
+Curiosity
+Problem/Solution
+Story
+Question
+Bold statement
+
+Show each hook in a separate card.
+
+Buttons:
+
+Copy
+Save
+Regenerate
+
+==================================================
+12. DESCRIPTION GENERATOR
+==================================================
+
+Inputs:
+
+Video title
+Topic
+Platform
+Keywords
+Tone
+Language
+
+Generate:
+
+- Professional description
+- Short summary
+- Suggested keywords
+- Suggested call-to-action
+
+Provide Copy button.
+
+==================================================
+13. THUMBNAIL CONCEPT GENERATOR
+==================================================
+
+IMPORTANT:
+
+This tool should generate THUMBNAIL CONCEPTS and prompts,
+not pretend to generate an actual image unless an image generation
+API is actually configured.
+
+Inputs:
+
+Video topic
+Title
+Audience
+Style
+
+Output:
+
+Thumbnail concept
+Main visual
+Suggested text
+Composition
+Background idea
+Facial-expression suggestion where appropriate
+AI image-generation prompt
+
+Add:
+
+Copy Prompt
+
+==================================================
+14. HASHTAG GENERATOR
+==================================================
+
+Inputs:
+
+Topic
+Platform
+Niche
+Language
+
+Generate relevant hashtag suggestions.
+
+Separate into:
+
+Primary
+Secondary
+Niche-specific
+
+Add:
+
+Copy All
+
+Do not guarantee reach or virality.
+
+==================================================
+15. SCRIPT OUTLINE GENERATOR
+==================================================
+
+Inputs:
+
+Topic
+Platform
+Video length
+Audience
+Tone
+
+Generate:
+
+Hook
+Introduction
+Main Point 1
+Main Point 2
+Main Point 3
+Conclusion
+Call-to-action
+
+For long videos allow:
+
+5 min
+10 min
+15 min
+20 min
+
+For short-form:
+
+15 sec
+30 sec
+60 sec
+
+Do not generate copyrighted scripts based on specific copyrighted works.
+
+==================================================
+16. CONTENT CALENDAR
+==================================================
+
+Create a professional content calendar generator.
+
+Inputs:
+
+Niche
+Platform
+Posting frequency
+Duration
+Audience
+Content goal
+
+Duration:
+
+7 days
+14 days
+30 days
+
+Posting frequency:
+
+Daily
+3 times/week
+5 times/week
+Custom
+
+Output as a table:
+
+Date
+Content type
+Topic
+Title idea
+Hook
+CTA
+Platform
+
+Allow:
+
+Copy
+Save
+Export
+
+==================================================
+17. RESULTS SYSTEM
+==================================================
+
+Every AI result should be displayed in clean cards.
+
+Each result needs:
+
+Copy
+Save
+Regenerate
+
+For lists:
+
+Use numbered items.
+
+For longer generated content:
+
+Use expandable/collapsible sections.
+
+Show loading state while AI is generating.
+
+Example loading text:
+
+"Creating your content..."
+
+Use skeleton/loading animation.
+
+==================================================
+18. HISTORY
+==================================================
+
+Create a History page.
+
+Store previously generated results when persistence is available.
+
+Each history item should show:
+
+Tool
+Topic
+Date
+Preview
+
+Actions:
+
+Open
+Copy
+Delete
+
+If no history exists show:
+
+"No saved generations yet."
+
+==================================================
+19. TEMPLATES
+==================================================
+
+Create a Templates page.
+
+Categories:
+
+YouTube
+Shorts
+TikTok
+Instagram
+Education
+Gaming
+Business
+Productivity
+Marketing
+
+Each template should contain:
+
+Template name
+Description
+Use Template button
+
+Clicking Use Template should automatically populate the relevant
+tool inputs.
+
+==================================================
+20. FAVORITES / SAVED CONTENT
+==================================================
+
+Allow users to save generated content.
+
+Create a Saved section.
+
+Users can:
+
+View
+Copy
+Delete
+
+If authentication/database is not configured, implement local storage
+as a fallback.
+
+==================================================
+21. PRICING PAGE
+==================================================
+
+Create a professional pricing page.
+
+Plans:
+
+FREE
+- Limited generations
+- Basic AI tools
+- Basic templates
+
+CREATOR
+- Higher generation limits
+- Advanced templates
+- Saved projects
+- Content calendar
+- More customization
+
+PRO
+- Highest limits
+- Advanced creator features
+- Priority features
+- Extended history
+
+IMPORTANT:
+
+Do not implement fake payment processing.
+
+Create the pricing UI and architecture so a real payment provider
+can be integrated later.
+
+Clearly label unavailable payment functionality if no payment provider
+is configured.
+
+==================================================
+22. USAGE LIMITS
+==================================================
+
+Create a configurable usage-limit system.
+
+Example:
+
+Free users:
+5 generations/day
+
+Creator:
+50/day
+
+Pro:
+200/day
+
+IMPORTANT:
+
+Keep these values in a centralized configuration file.
+
+Do not claim these are actual paid limits unless payment/authentication
+is really implemented.
+
+Display:
+
+"Generations remaining today"
+
+When limit is reached:
+
+"Daily limit reached. Try again tomorrow or upgrade your plan."
+
+Do not bypass limits.
+
+==================================================
+23. SETTINGS
+==================================================
+
+Create Settings page.
+
+Sections:
+
+Profile
+Appearance
+Default Platform
+Default Language
+Default Tone
+Notifications
+Privacy
+Usage
+
+Appearance:
+
+Light
+Dark
+System
+
+Allow users to set default preferences.
+
+==================================================
+24. AUTHENTICATION ARCHITECTURE
+==================================================
+
+Design the application so authentication can be added cleanly.
+
+Support architecture for:
+
+Email login
+Google login
+
+If authentication services are not configured,
+do not create fake authentication.
+
+Instead provide a clean demo/local mode.
+
+==================================================
+25. AI API INTEGRATION
+==================================================
+
+Use the Gemini API available through the application environment.
+
+Do not expose secret API keys in frontend code.
+
+Use secure server-side/environment configuration where required.
+
+Create a centralized AI service.
+
+Example conceptual structure:
+
+/services/aiService
+
+Functions:
+
+generateIdeas()
+generateTitles()
+generateHooks()
+generateDescription()
+generateThumbnailConcept()
+generateHashtags()
+generateScriptOutline()
+generateContentCalendar()
+
+Use structured prompts for each tool.
+
+The AI should return predictable structured data whenever possible.
+
+==================================================
+26. AI PROMPT QUALITY
+==================================================
+
+Every tool should have a dedicated system instruction.
+
+General instruction:
+
+"You are a professional content strategist helping creators produce
+useful, original and platform-appropriate content.
+
+Do not guarantee virality, views, followers, rankings or income.
+
+Do not fabricate facts.
+
+Do not intentionally create misleading clickbait.
+
+When information is uncertain, clearly indicate uncertainty.
+
+Respect copyright and do not reproduce copyrighted text."
+
+For title generation:
+
+Create compelling but truthful titles.
+
+For hooks:
+
+Create attention-grabbing but non-deceptive hooks.
+
+For descriptions:
+
+Create useful descriptions based only on the supplied topic.
+
+For calendars:
+
+Avoid repetitive ideas.
+
+==================================================
+27. ERROR HANDLING
+==================================================
+
+Handle:
+
+API errors
+Rate limits
+Empty input
+Network errors
+Invalid responses
+Timeouts
+
+Show friendly messages.
+
+Examples:
+
+"Please enter a topic first."
+
+"Something went wrong while generating your content.
+Please try again."
+
+"AI service is temporarily unavailable."
+
+Never expose raw API keys, stack traces or sensitive technical details
+to the user.
+
+==================================================
+28. COPY FUNCTION
+==================================================
+
+Every generated text result should have a working Copy button.
+
+After copying:
+
+"Copied!"
+
+Use clipboard API.
+
+==================================================
+29. EXPORT
+==================================================
+
+For content calendars and longer outputs provide:
+
+Copy
+Download as TXT
+
+If PDF export is implemented, make sure it actually works.
+
+Do not show a fake download button.
+
+==================================================
+30. RESPONSIVE DESIGN
+==================================================
+
+The application MUST work correctly on:
+
+Mobile phones
+Tablets
+Laptops
+Desktop monitors
+
+Mobile requirements:
+
+- Bottom spacing
+- Touch-friendly buttons
+- Collapsible navigation
+- Cards become single-column
+- Tables become horizontally scrollable or responsive cards
+- No horizontal page overflow
+- Inputs fit small screens
+
+==================================================
+31. ACCESSIBILITY
+==================================================
+
+Use:
+
+Semantic HTML
+Accessible labels
+Keyboard navigation
+Visible focus states
+ARIA labels where necessary
+Readable font sizes
+Accessible buttons
+
+Do not rely only on color to communicate information.
+
+==================================================
+32. SEO
+==================================================
+
+Create SEO-friendly public pages.
+
+Pages:
+
+/
+ /tools
+ /tools/video-ideas
+ /tools/titles
+ /tools/hooks
+ /tools/descriptions
+ /tools/thumbnails
+ /tools/hashtags
+ /tools/script-outline
+ /tools/content-calendar
+ /templates
+ /pricing
+ /about
+ /contact
+ /privacy
+ /terms
+
+Each public page should have:
+
+Unique title
+Meta description
+Proper headings
+Clean URL
+Open Graph metadata where supported
+
+Do not create thousands of low-quality AI pages automatically.
+
+==================================================
+33. ABOUT PAGE
+==================================================
+
+Create a professional About page explaining:
+
+What CreatorFlow AI is
+Who it is for
+How it helps creators
+Why it was created
+
+Do not make false claims about company size,
+users, revenue or partnerships.
+
+==================================================
+34. CONTACT PAGE
+==================================================
+
+Create a clean contact form:
+
+Name
+Email
+Message
+
+If backend email service is unavailable,
+store locally or clearly state that backend submission
+needs configuration.
+
+Do not pretend the message was sent if it wasn't.
+
+==================================================
+35. PRIVACY PAGE
+==================================================
+
+Create a basic privacy-policy structure covering:
+
+- Information collected
+- AI-generated content
+- Cookies/local storage
+- Analytics
+- Third-party services
+- Data retention
+- User choices
+
+IMPORTANT:
+
+Do not claim compliance with laws/certifications that have not actually
+been implemented.
+
+==================================================
+36. TERMS PAGE
+==================================================
+
+Create a basic Terms page covering:
+
+- Acceptable use
+- AI-generated content
+- User responsibility
+- Service limitations
+- Intellectual property
+- Account limitations
+- Changes to service
+
+==================================================
+37. AD-READY ARCHITECTURE
+==================================================
+
+Prepare clean locations where advertisements can later be inserted.
+
+Possible placements:
+
+Homepage:
+Below hero
+Between content sections
+
+Tools:
+Between input and result
+Below result
+
+Do NOT automatically insert fake ads.
+
+Create reusable component:
+
+AdPlaceholder
+
+with a configuration flag:
+
+ADS_ENABLED = false
+
+When false, the component should not show fake advertisements.
+
+When real advertising is configured later, it can be enabled.
+
+Do not encourage users to click advertisements.
+
+==================================================
+38. ANALYTICS-READY ARCHITECTURE
+==================================================
+
+Create an analytics abstraction.
+
+Track events such as:
+
+tool_opened
+generation_started
+generation_completed
+generation_failed
+copy_clicked
+template_used
+
+Do not include sensitive user content in analytics events.
+
+If analytics provider is not configured,
+keep analytics disabled.
+
+==================================================
+39. PERFORMANCE
+==================================================
+
+Optimize for:
+
+Fast initial load
+Lazy loading where appropriate
+Small bundles
+Reusable components
+No unnecessary API requests
+
+Do not call AI automatically on page load.
+
+Only call AI when the user presses Generate.
+
+==================================================
+40. SECURITY
+==================================================
+
+IMPORTANT:
+
+Never put private API keys directly into frontend source code.
+
+Validate user input.
+
+Limit excessively large prompts.
+
+Do not allow arbitrary code execution.
+
+Do not store sensitive user data unnecessarily.
+
+==================================================
+41. PROJECT STRUCTURE
+==================================================
+
+Use a clean scalable architecture.
+
+Suggested structure:
+
+src/
+  components/
+  pages/
+  services/
+  hooks/
+  utils/
+  config/
+  types/
+  styles/
+
+Create reusable components for:
+
+Header
+Sidebar
+MobileMenu
+ToolCard
+InputForm
+ResultCard
+CopyButton
+SaveButton
+LoadingState
+ErrorMessage
+PricingCard
+TemplateCard
+Footer
+AdPlaceholder
+
+==================================================
+42. EMPTY STATES
+==================================================
+
+Every page that can be empty must have a useful empty state.
+
+Example:
+
+"No generations yet.
+Choose an AI tool and create your first result."
+
+==================================================
+43. DEMO / FIRST-RUN EXPERIENCE
+==================================================
+
+When the application first loads, make it easy for a new user
+to understand what to do.
+
+Show:
+
+"Start with a topic"
+
+Example quick-start buttons:
+
+"YouTube Video Ideas"
+"Shorts Hooks"
+"Instagram Captions"
+"30-Day Content Plan"
+
+Clicking a quick-start button should open the relevant tool.
+
+==================================================
+44. QUALITY CONTROL
+==================================================
+
+Before finishing:
+
+Check every navigation link.
+
+Check every button.
+
+Check all forms.
+
+Check mobile layout.
+
+Check dark mode.
+
+Check copy buttons.
+
+Check save/delete behavior.
+
+Check loading states.
+
+Check errors.
+
+Check API integration.
+
+Check that no fake functionality is presented as real.
+
+Remove:
+
+Placeholder lorem ipsum
+Broken buttons
+Dead links
+Console errors
+Unused components
+Duplicate code
+
+==================================================
+45. IMPORTANT PRODUCT RULE
+==================================================
+
+This must NOT be a fake static website.
+
+The core AI generation functionality must be implemented.
+
+If an external service is required but unavailable,
+create a clean configuration point and clearly indicate what needs
+to be configured.
+
+Do not silently return fake generated content.
+
+==================================================
+46. FINAL UI REQUIREMENT
+==================================================
+
+The finished application should feel like a real startup SaaS product.
+
+Brand:
+
+CreatorFlow AI
+
+Tagline:
+
+"Your AI-powered toolkit for smarter content creation."
+
+Make the dashboard the central experience.
+
+Keep the interface simple enough for a beginner,
+but professional enough to feel like a commercial product.
+
+==================================================
+47. BUILD INSTRUCTIONS
+==================================================
+
+First inspect the existing project structure.
+
+If a project already exists, improve it instead of unnecessarily
+rebuilding everything.
+
+Use reusable components.
+
+Keep code clean and maintainable.
+
+Do not remove working functionality unless necessary.
+
+After implementation:
+
+1. Run/build the application.
+2. Fix compilation errors.
+3. Fix runtime errors.
+4. Check responsive behavior.
+5. Check all major user flows.
+6. Make sure the final application is functional.
+
+IMPORTANT:
+Do not just describe the application.
+ACTUALLY BUILD THE APPLICATION.
