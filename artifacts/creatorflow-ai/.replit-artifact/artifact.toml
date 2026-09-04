@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "CreatorFlow AI"
+description = "A polished AI content creation toolkit for YouTube, Instagram, TikTok, and other creators. Generate ideas, titles, hooks, descriptions, thumbnail concepts, hashtags, outlines, and content calendars in one focused workspace."
+version = "1.0.0"
+id = "artifacts/creatorflow-ai"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21615
+
+[services.development]
+run = "pnpm --filter @workspace/creatorflow-ai run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/creatorflow-ai", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/creatorflow-ai/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21615"
+BASE_PATH = "/"
