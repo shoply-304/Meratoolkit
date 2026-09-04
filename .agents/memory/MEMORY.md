@@ -1,0 +1,1 @@
+- [Gemini model availability](gemini-model-availability.md) — direct Gemini keys for new users may reject older model IDs; use the provider error to select a current model.
