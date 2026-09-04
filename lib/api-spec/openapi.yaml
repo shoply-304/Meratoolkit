@@ -1,0 +1,231 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.1.0
+  description: API specification
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: generation
+    description: AI content generation
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      description: Returns server health status
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+  /generations:
+    post:
+      operationId: generateContent
+      tags: [generation]
+      summary: Generate creator content with AI
+      description: Generates structured content for one of the CreatorFlow AI tools.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/GenerationInput"
+      responses:
+        "200":
+          description: Generated content
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Generation"
+        "400":
+          description: Invalid generation request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "429":
+          description: Generation limit reached
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "503":
+          description: AI service unavailable
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+components:
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required:
+        - error
+    GenerationInput:
+      type: object
+      properties:
+        tool:
+          type: string
+          enum:
+            - ideas
+            - titles
+            - hooks
+            - description
+            - thumbnail
+            - hashtags
+            - script-outline
+            - content-calendar
+        topic:
+          type: string
+          minLength: 1
+          maxLength: 500
+        platform:
+          type: string
+          maxLength: 80
+        contentType:
+          type: string
+          maxLength: 80
+        audience:
+          type: string
+          maxLength: 120
+        tone:
+          type: string
+          maxLength: 80
+        language:
+          type: string
+          maxLength: 80
+        niche:
+          type: string
+          maxLength: 120
+        count:
+          type: number
+          minimum: 1
+          maximum: 20
+        keywords:
+          type: string
+          maxLength: 500
+        videoLength:
+          type: string
+          maxLength: 40
+        postingFrequency:
+          type: string
+          maxLength: 40
+        duration:
+          type: string
+          maxLength: 40
+        title:
+          type: string
+          maxLength: 300
+        style:
+          type: string
+          maxLength: 120
+        goal:
+          type: string
+          maxLength: 160
+      required:
+        - tool
+        - topic
+    GenerationItem:
+      type: object
+      properties:
+        title:
+          type: string
+        body:
+          type: string
+        meta:
+          type: string
+      required:
+        - title
+        - body
+    GenerationSection:
+      type: object
+      properties:
+        label:
+          type: string
+        body:
+          type: string
+      required:
+        - label
+        - body
+    CalendarRow:
+      type: object
+      properties:
+        date:
+          type: string
+        contentType:
+          type: string
+        topic:
+          type: string
+        titleIdea:
+          type: string
+        hook:
+          type: string
+        cta:
+          type: string
+        platform:
+          type: string
+      required:
+        - date
+        - contentType
+        - topic
+        - titleIdea
+        - hook
+        - cta
+        - platform
+    Generation:
+      type: object
+      properties:
+        id:
+          type: string
+        tool:
+          type: string
+        createdAt:
+          type: string
+          format: date-time
+        headline:
+          type: string
+        summary:
+          type: string
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/GenerationItem"
+        sections:
+          type: array
+          items:
+            $ref: "#/components/schemas/GenerationSection"
+        calendar:
+          type: array
+          items:
+            $ref: "#/components/schemas/CalendarRow"
+        rawText:
+          type: string
+      required:
+        - id
+        - tool
+        - createdAt
+        - headline
+        - summary
+        - items
+        - sections
+        - calendar
+        - rawText
+
