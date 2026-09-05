@@ -1,0 +1,8 @@
+[build]
+  command = "pnpm --filter @workspace/creatorflow-ai... run build"
+  publish = "artifacts/creatorflow-ai/dist/public"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
