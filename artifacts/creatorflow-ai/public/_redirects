@@ -1,1 +1,3 @@
-/*    /index.html   200
+/api/healthz  /.netlify/functions/healthz  200
+/api/generations  /.netlify/functions/generations  200
+/*  /index.html  200
